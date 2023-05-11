@@ -2,9 +2,9 @@ a {
     text-decoration: none;
 }
 :root {
-    --pink: hsl(338, 70%, 55%);
-    --teal: hsl(183, 70%, 62%);
-    --white: hsl(334, 7%, 95%);
+    --pink: hsl(221, 100%, 50%);
+    --teal: hsl(150, 99%, 51%);
+    --white: hsl(330, 100%, 34%);
   }
   
 body {
@@ -32,7 +32,7 @@ pre {
 font-size: 3rem;
 font-weight: bold;
 color: var(--undefined);
-background: hsl(222, 45%, 7%);
+background: hsl(210, 48%, 70%);
 padding: 2rem;
 border-radius: 1rem;
 
@@ -57,7 +57,7 @@ border-radius: inherit;
 pre::before {
 inset: 0.75rem;
 border-radius: inherit;
-background: black;
+background: hsl(211, 23%, 45%);
 z-index: -1;
 transform: translateZ(-50px);
 filter: blur(15px);
@@ -68,7 +68,7 @@ opacity: 0.5;
 pre::after {
 z-index: -2;
 inset: -1rem;
-background: linear-gradient(-45deg, rgb(185, 255, 212), rgb(0, 255, 208), rgb(0, 131, 107));
+background: linear-gradient(-45deg, rgb(0, 255, 98), rgb(0, 152, 125), rgb(0, 48, 131));
 transform: translateZ(-50px);
 }
 
@@ -91,6 +91,27 @@ color: var(--property);
 .click-the-code {
     font-family: "Roboto", sans-serif;
     font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: relative;
+    color: aliceblue;
+}
+
+.rights {
+    background: hsl(224, 32%, 12%);
+    background-image: conic-gradient(
+        from 0deg at 50% 50%,
+        blue,
+        purple,
+        purple,
+        blue
+    );
+    background-blend-mode: multiply;
+    padding-top: 75px;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
