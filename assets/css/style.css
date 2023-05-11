@@ -34,7 +34,7 @@ font-weight: bold;
 color: var(--undefined);
 background: hsl(210, 48%, 70%);
 padding: 2rem;
-border-radius: 1rem;
+border-radius: 5rem;
 
 position: relative;
 
@@ -43,7 +43,7 @@ transform: perspective(5000px) rotateY(var(--rotateX)) rotateX(var(--rotateY));
 }
 
 pre > * {
-text-shadow: 0 0 0.3em currentColor;
+text-shadow: 0 0 0.4em currentColor;
 }
 
 pre::before,
