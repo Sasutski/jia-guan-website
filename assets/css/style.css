@@ -85,7 +85,7 @@ color: var(--property);
 }
 
 .click-the-code {
-    font-family: "Roboto", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
@@ -98,9 +98,8 @@ color: var(--property);
 .rights {
     background: transparent;
     padding-top: 75px;
-    font-family: "Roboto", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 4px;
