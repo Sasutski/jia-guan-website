@@ -1,24 +1,20 @@
+html {
+    background: linear-gradient(rgb(1, 1, 49), black, rgb(1, 1, 49));
+}
 a {
     text-decoration: none;
 }
 :root {
-    --pink: hsl(221, 100%, 50%);
+    --pink: hsl(206, 100%, 50%);
     --teal: hsl(169, 100%, 51%);
-    --white: hsl(330, 100%, 34%);
+    --white: hsl(0, 100%, 43%);
   }
   
 body {
-background: hsl(224, 32%, 12%);
-background-image: conic-gradient(
-    from 0deg at 50% 50%,
-    blue,
-    purple,
-    purple,
-    blue
-);
-background-blend-mode: multiply;
+background: transparent;
 padding-top: 240px;
-min-block-size: 50dvh;
+min-block-size: 72dvh;
+
 display: grid;
 place-items: center;
 }
@@ -32,7 +28,7 @@ pre {
 font-size: 3rem;
 font-weight: bold;
 color: var(--undefined);
-background: hsl(210, 48%, 70%);
+background: hsl(0, 0%, 0%);
 padding: 2rem;
 border-radius: 5rem;
 
@@ -55,13 +51,13 @@ border-radius: inherit;
 
 /* shadow */
 pre::before {
-inset: 0.75rem;
+inset: -0.50rem;
 border-radius: inherit;
-background: hsl(211, 23%, 45%);
+background: linear-gradient(-45deg, hsl(163, 100%, 43%), hsl(169, 100%, 51%), hsl(206, 100%, 50%));
 z-index: -1;
-transform: translateZ(-50px);
-filter: blur(15px);
-opacity: 0.5;
+transform: translateZ(-25px);
+filter: blur(10px);
+opacity: 100%;
 }
 
 /* gradient thingy */
@@ -100,15 +96,7 @@ color: var(--property);
 }
 
 .rights {
-    background: hsl(224, 32%, 12%);
-    background-image: conic-gradient(
-        from 0deg at 50% 50%,
-        blue,
-        purple,
-        purple,
-        blue
-    );
-    background-blend-mode: multiply;
+    background: transparent;
     padding-top: 75px;
     font-family: "Roboto", sans-serif;
     font-size: 12px;
