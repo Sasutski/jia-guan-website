@@ -14,7 +14,7 @@ a {
 :root {
     --pink: hsl(0, 0%, 100%);
     --teal: hsl(0, 100%, 50%);
-    --white: hsl(0, 100%, 68%);
+    --white: hsl(0, 81%, 52%);
   }
   
 .body-start {
@@ -68,7 +68,7 @@ border-radius: inherit;
 pre::before {
 inset: -0.50rem;
 border-radius: inherit;
-background: linear-gradient(-45deg, hsl(264, 100%, 65%), hsl(280, 100%, 51%), hsl(206, 100%, 50%));
+background: linear-gradient(-45deg, hsl(264, 48%, 57%), hsl(280, 42%, 54%), hsl(206, 44%, 55%));
 z-index: -1;
 transform: translateZ(-25px);
 filter: blur(10px);
@@ -79,7 +79,7 @@ opacity: 100%;
 pre::after {
 z-index: -2;
 inset: -1rem;
-background: linear-gradient(-45deg, hsl(264, 100%, 74%), hsl(280, 100%, 74%), hsl(206, 100%, 74%));
+background: linear-gradient(-45deg, hsl(264, 100%, 50%), hsl(280, 100%, 37%), hsl(206, 100%, 29%));
 transform: translateZ(-50px);
 }
 
